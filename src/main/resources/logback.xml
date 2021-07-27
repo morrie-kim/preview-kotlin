@@ -25,6 +25,7 @@
     </appender>
 
     <logger name="com.morrie.preview" level="DEBUG"/>
+    <logger name="io.netty.util" level="ERROR"/>
 
     <root level="DEBUG">
         <appender-ref ref="CONSOLE"/>
